@@ -1,5 +1,5 @@
 # TOKEN Sale Smart Contract
-a token sale smart contract for a new blockchain project. The token sale will be conducted in
+A token sale smart contract for a new blockchain project. The token sale will be conducted in
 two phases: a presale and a public sale. The smart contract is able to handle the following
 functionalities:
 ### Presale:
@@ -35,3 +35,6 @@ should be able to claim a refund.
 - Event Logging: The contract emits an event whenever tokens are purchased. This allows for easy tracking and auditing of all token purchases.
 
 - Error Handling: The contract includes require statements with error messages throughout to ensure that functions are only called when it is valid to do so.
+  ## Test script
+  The test file includes two tests: testBuyTokens and testEndSale.
+   The testBuyTokens function tests the buyTokens function of the TokenSale contract, and the testEndSale function tests the endSale function of the TokenSale contract.
